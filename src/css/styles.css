@@ -1,0 +1,65 @@
+*{
+    font-family: Rawline, Raleway, sans-serif;
+    font-size: 22px;
+    font-weight: 600 !important;
+}
+
+.title {
+    color: #0c326f;
+    font-size: 34.832px;
+}
+
+.subtitle {
+    color: #555;
+}
+
+.container-text {
+    flex-direction: column;
+}
+
+.container-items {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+    background-color: #f8f8f8;
+    text-align: center !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    color: #0c326f;
+    width: 300px;
+    height: 150px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.card h2 {
+    font-size: 20.16px;
+    color: #002855;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
